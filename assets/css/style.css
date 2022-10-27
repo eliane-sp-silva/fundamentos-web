@@ -1,0 +1,84 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  --cinza: #D0DFE6;
+  --lilas: #bc33a3e8;
+  --azulClaro: #1794A5;
+  --azulEscuro: #032030;
+  --branco: #f2f2f2;
+  --preto: #1a1a1a;
+}
+/* Estilos da página index.html */
+.center{
+  text-align: center;  
+  padding: 5px;
+}
+.justify{
+  text-align: justify;
+}
+.cursiva{
+  font-family: 'Pacifico', cursive;
+  color: var(--lilas);
+}
+
+.container{
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  
+}
+.menu{
+  display: flex;
+  text-decoration: none; 
+}
+.menu li {
+  display: inline;
+  padding: 1.5rem;
+
+}
+.menu li a {
+  text-decoration: none; 
+}
+.menu li a:hover{
+  color: var(--branco);
+  background-color: var(--lilas);
+  border-radius: 5px;
+  padding: 5px;
+  width: 30px;
+}
+.p-30{
+  padding: 30px;
+}
+
+#imgperfil{
+  max-width: 30vw;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: 8px double var(--lilas);
+}
+.video-viagem{
+  width: 100vw;
+}
+.redesociais{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.redesociais img{
+  display: flex;
+  width: 30px;
+  margin: 5px;
+  
+}
+.mb-30{
+  margin-bottom: 30px;
+}
+
+/* Estilos da página contato.html */
+.ml-50{
+  margin-left: 50px;
+}

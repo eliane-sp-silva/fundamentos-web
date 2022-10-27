@@ -3,56 +3,85 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@100;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/assets/css/style.css" />
     <title>Meu Perfil</title>
   </head>
   <body>
-    <ul>
+    <ul class="menu">
       <li><a href="index.html">Home</a></li>
       <li><a href="contato.html">Contato</a></li>
     </ul>
 
-    <h1>Sobre a Eliane</h1>
+    <h1 class="center cursiva">Sobre a Eliane</h1>
 
-    <p>
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis nihil
-      deleniti nam ducimus obcaecati, maxime, culpa possimus natus doloribus
-      sint, minus esse ab sapiente dolores! Dignissimos, aliquid consectetur!
-      Cum, accusamus. Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-      Minima consectetur incidunt repellendus dignissimos molestiae libero esse
-      nam ipsa tempora architecto excepturi veritatis, quas fuga hic vel. Quae
-      recusandae enim dignissimos.
-    </p>
+    <div class="container">
+      <div>
+        <img
+          id="imgperfil"
+          src="assets/img/Eliane-Generation (24).jpg"
+          width="400"
+          height="300"
+          alt="Foto da criadora desse conteúdo"
+        />
+      </div>
+      <div class="p-30">
+        <p class="justify">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis
+          nihil deleniti nam ducimus obcaecati, maxime, culpa possimus natus
+          doloribus sint, minus esse ab sapiente dolores! Dignissimos, aliquid
+          consectetur! Cum, accusamus. Lorem ipsum dolor, sit amet consectetur
+          adipisicing elit. Minima consectetur incidunt repellendus dignissimos
+          molestiae libero esse nam ipsa tempora architecto excepturi veritatis,
+          quas fuga hic vel. Quae recusandae enim dignissimos.
+        </p>
+        <p class="justify">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum iusto
+          similique sapiente voluptatum impedit. Veritatis ut voluptate labore
+          qui eos, sed inventore unde voluptates ad, soluta officiis enim ipsam
+          ex! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+          enim pariatur aliquam corrupti magni dolor, quis, aliquid ab ipsam
+          tempora consequatur voluptatibus, esse beatae nostrum quidem deserunt
+          eaque dignissimos deleniti!
+        </p>
+      </div>
 
-    <p>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum iusto
-      similique sapiente voluptatum impedit. Veritatis ut voluptate labore qui
-      eos, sed inventore unde voluptates ad, soluta officiis enim ipsam ex!
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam enim
-      pariatur aliquam corrupti magni dolor, quis, aliquid ab ipsam tempora
-      consequatur voluptatibus, esse beatae nostrum quidem deserunt eaque
-      dignissimos deleniti!
-    </p>
+    </div>
 
-    <img
-      src="assets/img/Eliane-Generation (24).jpg"
-      width="400"
-      height="400"
-      alt="Foto da criadora desse conteúdo"
-    />
+    <h2 class="center cursiva">Meu video predileto</h2>
+    <div class="container">
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/GaFyYJvuxsU"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
 
-    <h2>Meu video predileto</h2>
-    <iframe
-      width="560"
-      height="315"
-      src="https://www.youtube.com/embed/GaFyYJvuxsU"
-      title="YouTube video player"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen
-    ></iframe>
+    <h2 class="center cursiva">Viagem dos sonhos</h2>
+    <div class="container mb-30">
+      <video class="video-viagem"
+      autoplay loop
+      src="/assets/video/video-praia.mp4"></video>
+    </div>
+    <hr>
+    <footer>
+      <div class="container redesociais">
+        <a href="https://github.com/eliane-sp-silva" target="_blank"><img src="/assets/svg/github.svg" alt="icone github"></a>
+        <a href="https://www.linkedin.com/in/elianespsilva-dev/" target="_blank"><img src="/assets/svg/linkedin.svg" alt="icone linkedin"></a>
+        <a href="https://www.instagram.com/elianespsilva/" target="_blank"><img src="/assets/svg/instagram.svg" alt="icone instagram"></a>
 
-    <h2>Viagem dos sonhos</h2>
-    <video src="/assets/video/video-praia.mp4"></video>
+      </div>
+      <span class="container">Desenvolvido por Eliane SP Silva &copy;</span>
+    </footer>
   </body>
 </html>
