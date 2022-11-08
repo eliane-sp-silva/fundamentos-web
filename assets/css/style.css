@@ -1,7 +1,7 @@
 body{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
 }
 :root{
   --cinza: #D0DFE6;
@@ -31,6 +31,23 @@ body{
   align-items: center;
   
 }
+nav {
+  width: 80vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* quando necessário chamar uma das variaveis, usar a sintaxe "var(--variavel)" */
+nav p {
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--azulEscuro);
+}
+
+nav p span {
+  color: var(--lilas);
+}
 .menu{
   display: flex;
   text-decoration: none; 
@@ -55,13 +72,13 @@ body{
 }
 
 #imgperfil{
-  max-width: 30vw;
+  max-width: 15vw;
   aspect-ratio: 1;
   border-radius: 50%;
   border: 8px double var(--lilas);
 }
 .video-viagem{
-  width: 100vw;
+  width: 90vw;
 }
 .redesociais{
   display: flex;
@@ -77,8 +94,31 @@ body{
 .mb-30{
   margin-bottom: 30px;
 }
+footer p {
+  color: var(--lilas);
+  font-size: 16px;
+}
 
 /* Estilos da página contato.html */
 .ml-50{
   margin-left: 50px;
+}
+.mapa {
+  width: 100%;
+  aspect-ratio: 16/12;
+  border-radius: 8px;
+  border: 3px solid var(--azulClaro);
+}
+.space{
+  border: 2px solid red;
+  display: flex;  
+  flex-direction: column; 
+   
+  gap: 8px;
+}
+
+.space input{
+  width: 96% !important;
+  padding: 8px;
+  
 }
